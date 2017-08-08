@@ -2,12 +2,6 @@
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-.html {
-    width: 100%;
-
-}
-
-
 .row {
     margin: 0 !important;
 }
@@ -37,16 +31,19 @@
 .header-bigger-text {
     font-size: 18px;
 }
-@media only screen and (max-width: 693px){
-    .search-bar-header{
-font-size: 160%;
-        padding:0 5px  20px 5px;
+
+@media only screen and (max-width: 693px) {
+    .search-bar-header {
+        font-size: 160%;
+        padding: 0 5px 20px 5px;
 
     }
-    .search-bar{
+
+    .search-bar {
         height: 300px !important;
     }
 }
+
 .sign-button {
     width: 80px;
 }
@@ -130,6 +127,7 @@ font-size: 160%;
     }
 
 }
+
 @media only screen and (min-width: 992px) {
 
     .padding-less {
@@ -137,6 +135,7 @@ font-size: 160%;
         padding-right: 0 !important;
     }
 }
+
 .categories {
     padding: 15px 0;
     height: 475px;
@@ -352,8 +351,6 @@ footer {
     font-weight: 300;
     color: rgb(152, 152, 152);
 }
-
-
 
 .search-bar-header {
     font-family: 'Roboto', sans-serif;
